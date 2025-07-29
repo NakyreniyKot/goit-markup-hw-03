@@ -255,22 +255,11 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.mark-product-designer {
-  padding: 32px 0;
-}
-
-.tom-fronten-developer {
-  padding: 32px 0;
-}
-
-.camila-marketing {
-  padding: 32px 0;
-}
-
-.daniel-ui-designer {
+.team-card-text {
   padding: 32px 0;
 }
 
@@ -400,4 +389,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
