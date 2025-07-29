@@ -34,19 +34,14 @@ img {
   display: block;
 }
 
-.header-div-nav {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
-}
-
 .section {
   padding: 120px 0;
 }
 
 .container {
   max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -91,9 +86,6 @@ img {
   color: #2e2f42;
   text-decoration: none;
   margin-right: 40px;
-}
-
-.nav-list-item a {
   padding: 24px 0;
 }
 
@@ -207,7 +199,7 @@ img {
 
 .first-section-list-item {
   margin-right: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .first-section-list-item:last-child {
@@ -221,6 +213,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .first-section-list-item-paragraph {
@@ -268,19 +261,19 @@ img {
   margin-right: 0;
 }
 
-.mark-guerrero-product-designer {
+.mark-product-designer {
   padding: 32px 0;
 }
 
-.tom-ford-fronten-developer {
+.tom-fronten-developer {
   padding: 32px 0;
 }
 
-.camila-garcia-marketing {
+.camila-marketing {
   padding: 32px 0;
 }
 
-.daniel-wilson-ui-designer {
+.daniel-ui-designer {
   padding: 32px 0;
 }
 
@@ -351,9 +344,12 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
